@@ -1,0 +1,155 @@
+/* soft blocky, good for all */
+@font-face {
+  font-family: LED;
+  src: url("/assets/fonts/24 LED.ttf");
+}
+/* stretchy love */
+@font-face {
+  font-family: Barlow-elasticc;
+  src: url("/assets/fonts/Barlow-elasticc.otf");
+}
+/* flowers */
+@font-face {
+  font-family: Barlow-TypoDesBois;
+  src: url("/assets/fonts/Barlow-TypoDesBois.ttf");
+}
+/* wavy */
+@font-face {
+  font-family: Barlowfold;
+  src: url("/assets/fonts/Barlowfold.otf");
+}
+/* decorative */
+@font-face {
+  font-family: Baudot_Murray;
+  src: url("/assets/fonts/Baudot_Murray.ttf");
+}
+/* soft blocky */
+@font-face {
+  font-family: Space-Notorious-rounded;
+  src: url("/assets/fonts/Space-Notorious-rounded.otf");
+}
+/* soft blocky */
+@font-face {
+  font-family: Stairs;
+  src: url("/assets/fonts/Stairs.otf");
+}
+/* fire i */
+@font-face {
+  font-family: Autopia-Regular;
+  src: url("/assets/fonts/Autopia-master/autopia/Autopia-Regular/Autopia-Regular.otf");
+}
+/* like shadow */
+@font-face {
+  font-family: bianzhidai_noBG-Messy;
+  src: url("/assets/fonts/bianzhidai-2.0-main/fonts/bianzhidai_noBG/OTF/bianzhidai_noBG-Messy.otf");
+}
+/* bubble */
+@font-face {
+  font-family: bianzhidai_noBG-Bubble;
+  src: url("/assets/fonts/bianzhidai-2.0-main/fonts/bianzhidai_noBG/OTF/bianzhidai_noBG-Bubble.otf");
+}
+/* textiles witchy */
+@font-face {
+  font-family: bianzhidai-Base;
+  src: url("/assets/fonts/bianzhidai-2.0-main/fonts/bianzhidai/OTF/bianzhidai-Base.otf");
+}
+/* textiles witchy soft */
+@font-face {
+  font-family: bianzhidai-Stitches;
+  src: url("/assets/fonts/bianzhidai-2.0-main/fonts/bianzhidai/OTF/bianzhidai-Stitches.otf");
+}
+/* soft sharp */
+@font-face {
+  font-family: PPMondwest-Regular;
+  src: url("/assets/fonts/Bitmap Font Pack - Free for Personal Use/PPMondwest-Regular.otf");
+}
+/* typewriter */
+@font-face {
+  font-family: ErikasBuero;
+  src: url("/assets/fonts/ErikasBuero/ErikasBuero.ttf");
+}
+/* witchy soft handwriting */
+@font-face {
+  font-family: Garamondt-Regular;
+  src: url("/assets/fonts/FD_Garamon(d-t)/FONTS/OTF/Garamondt-Regular.otf");
+}
+/* decorative */
+@font-face {
+  font-family: KufiPattern;
+  src: url("/assets/fonts/KufiPattern/KufiPattern.ttf");
+}
+/* soft soft */
+@font-face {
+  font-family: Meyrin;
+  src: url("/assets/fonts/Meyrin-master/formats/Meyrin.ttf");
+}
+@font-face {
+  font-family: RingMatrix;
+  src: url("/assets/fonts/RingMatrix/RingMatrix.ttf");
+}
+@font-face {
+  font-family: RingMatrix3D;
+  src: url("/assets/fonts/RingMatrix/RingMatrix3D.ttf");
+}
+@font-face {
+  font-family: RingMatrixTwo;
+  src: url("/assets/fonts/RingMatrix/RingMatrixTwo.ttf");
+}
+/* soft skinny */
+@font-face {
+  font-family: terminal-grotesque_open;
+  src: url("/assets/fonts/Terminal-Grotesque-master/terminal-grotesque_open.otf");
+}
+/* soft skinny black */
+@font-face {
+  font-family: terminal-grotesque;
+  src: url("/assets/fonts/Terminal-Grotesque-master/terminal-grotesque.ttf");
+}
+
+html,
+body {
+  display: flex;
+  max-height: 100%;
+  margin: 0;
+  padding: 8vh 8vw;
+  font-family: "PPMondwest-Regular";
+  font-size: 20px;
+}
+
+#content {
+  flex: 1;
+  padding: 10px;
+  color: #2c2d2f;
+}
+
+#sidebar {
+  width: fit-content;
+  margin-right: 100px;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  color: #6a696a; /* 7 */
+  /* color: #585857; tyls */
+}
+
+#sidebar a:hover {
+  /* color: #6b0d15; dc */
+  text-decoration: underline;
+}
+
+.thumbnail {
+  max-width: 100%;
+}
+
+.ruler {
+  border-bottom: 1px solid #999;
+  width: 100%;
+  margin: -6px 0 26px;
+}
