@@ -108,18 +108,43 @@
 
 html,
 body {
-  display: flex;
-  max-height: 100%;
   margin: 0;
-  padding: 8vh 8vw;
-  font-family: "PPMondwest-Regular";
+  padding: 0;
   font-size: 20px;
+  font-family: "LED";
 }
 
-#content {
-  flex: 1;
-  padding: 10px;
+.alina {
+  padding: 200px;
+  text-align: center;
+}
+
+.archive {
   color: #2c2d2f;
+  padding: 150px 200px;
+}
+
+.contact {
+  padding: 250px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+  width: 25%;
+}
+
+.nav {
+  text-decoration: none;
 }
 
 #sidebar {
@@ -134,7 +159,8 @@ body {
 #sidebar a {
   text-decoration: none;
   display: block;
-  padding: 10px 0;
+  margin-bottom: 20px;
+  /* padding: 10px 0; */
   color: #6a696a; /* 7 */
   /* color: #585857; tyls */
 }
@@ -152,4 +178,8 @@ body {
   border-bottom: 1px solid #999;
   width: 100%;
   margin: -6px 0 26px;
+}
+
+h1 {
+  margin-top: auto;
 }
