@@ -50,6 +50,11 @@
 }
 /* textiles witchy */
 @font-face {
+  font-family: bianzhidai_noBG-Base;
+  src: url("/assets/fonts/bianzhidai-2.0-main/fonts/bianzhidai_noBG/OTF/bianzhidai_noBG-Base.otf");
+}
+/* textiles witchy */
+@font-face {
   font-family: bianzhidai-Base;
   src: url("/assets/fonts/bianzhidai-2.0-main/fonts/bianzhidai/OTF/bianzhidai-Base.otf");
 }
@@ -111,22 +116,18 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  font-family: "LED";
+  font-family: "PPMondwest-Regular";
+  background-color: #f2f2f2;
 }
 
-.alina {
-  padding: 200px;
-  text-align: center;
+a {
+  text-decoration: underline;
+  /* color: #585857; tyls */
+  color: #333333;
 }
 
-.archive {
-  color: #2c2d2f;
-  padding: 150px 200px;
-}
-
-.contact {
-  padding: 250px;
-  text-align: center;
+p {
+  color: #0e0e0e;
 }
 
 .container {
@@ -138,48 +139,45 @@ body {
 .navbar {
   position: absolute;
   display: flex;
-  padding: 25px;
   justify-content: space-around;
-  width: 25%;
+  width: max(25%, 250px);
+  margin-top: 25px;
 }
 
-.nav {
+.navbar .nav {
   text-decoration: none;
-}
-
-#sidebar {
-  width: fit-content;
-  margin-right: 100px;
-}
-
-#sidebar ul {
-  list-style: none;
-}
-
-#sidebar a {
-  text-decoration: none;
-  display: block;
-  margin-bottom: 20px;
-  /* padding: 10px 0; */
   color: #6a696a; /* 7 */
-  /* color: #585857; tyls */
 }
 
-#sidebar a:hover {
-  /* color: #6b0d15; dc */
-  text-decoration: underline;
+.navbar a:hover {
+  color: #6b0d15; /* dc */
+}
+
+.alina {
+  padding: 200px 10vw 5vw;
+  text-align: center;
+}
+
+.archive {
+  padding: 150px 10vw 5vw;
 }
 
 .thumbnail {
   max-width: 100%;
+  margin-bottom: 25px;
 }
 
-.ruler {
-  border-bottom: 1px solid #999;
-  width: 100%;
-  margin: -6px 0 26px;
+.cv {
+  padding: 300px 10vw 5vw;
+  text-align: center;
 }
 
-h1 {
-  margin-top: auto;
+.contact {
+  padding: 250px 10vw 5vw;
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  margin-left: 5px;
 }
